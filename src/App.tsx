@@ -4,7 +4,7 @@ import { QuizView } from './components/QuizView';
 import { FlashcardView } from './components/FlashcardView';
 import { questions } from './data/questions';
 import { useProgress } from './hooks/useProgress';
-import { AppMode, Question, QuestionType } from './types';
+import { AppMode, QuestionType } from './types';
 
 function App() {
   const [mode, setMode] = useState<AppMode>('HOME');
